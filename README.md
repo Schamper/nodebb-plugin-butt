@@ -5,5 +5,5 @@ Bonus: you can even give a list of words to change to butt.
 
 ## Installation
 
-    npm install nodebb-plugin-reddit
+    npm install nodebb-plugin-butt
 
