@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-butt",
+	"name": "NodeBB Butt Plugin",
+	"description": "NodeBB cloud to butt plugin PLUS.",
+	"url": "https://github.com/Schamper/nodebb-plugin-butt",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "load" },
+		{ "hook": "filter:admin.header.build", "method": "addNavigation" },
+		{ "hook": "filter:post.parse", "method": "parse" }
+	],
+	"templates": "/templates"
+}
